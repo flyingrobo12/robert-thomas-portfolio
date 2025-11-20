@@ -417,6 +417,30 @@
             border: 1px solid var(--border);
         }
 
+        .project-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .project-link {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .project-link-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+        }
+
+        .project-link-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+        }
+
         /* Experience Timeline */
         .timeline {
             position: relative;
@@ -726,6 +750,79 @@
 
             <div class="project-card">
                 <div class="project-header">
+                    <div class="project-icon">🧠</div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title">Code Spark Daily</h3>
+                    <p class="project-description">Daily coding trivia game featuring 10 questions to enhance your skills across various programming languages. Interactive learning platform designed to keep developers sharp and engaged with daily challenges.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API</span>
+                        <span class="tech-tag">Game Dev</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://code-spark-daily-18fa5bd4.base44.app/home" target="_blank" class="project-link project-link-primary">View Live</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">⚡</div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title">GlitchSignal <span style="background: linear-gradient(135deg, #10b981, #06b6d4); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600; margin-left: 0.5rem;">In Progress</span></h3>
+                    <p class="project-description">Price error detection system that monitors Amazon, Walmart, Target, and Best Buy for products with 50%+ discounts. Customizable notifications for specific items with real-time price tracking and alerts.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Web Scraping</span>
+                        <span class="tech-tag">APIs</span>
+                        <span class="tech-tag">Notifications</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://glitchsignal.lovable.app" target="_blank" class="project-link project-link-primary">View Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">✅</div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title">AI Task Spark</h3>
+                    <p class="project-description">AI-powered task manager to keep everything organized and help prioritize your day. Smart scheduling with intelligent task categorization, deadline tracking, and productivity insights powered by machine learning.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ai-task-spark1.lovable.app" target="_blank" class="project-link project-link-primary">View Live</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">🎬</div>
+                </div>
+                <div class="project-body">
+                    <h3 class="project-title">Agent Reel <span style="background: linear-gradient(135deg, #10b981, #06b6d4); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600; margin-left: 0.5rem;">In Progress</span></h3>
+                    <p class="project-description">Viral video maker that transforms listing pictures into engaging 30-second short videos. Perfect for real estate agents and content creators to quickly produce professional social media content that drives engagement.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Video AI</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">FFmpeg</span>
+                        <span class="tech-tag">Computer Vision</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
                     <div class="project-icon">🎮</div>
                 </div>
                 <div class="project-body">
@@ -968,10 +1065,10 @@
             <p class="section-description">Always interested in new opportunities and collaborations</p>
         </div>
         <div class="contact-grid">
-            <a href="/cdn-cgi/l/email-protection#40322d34282f2d21332929297300272d21292c6e232f2d7f3335222a2523347d0c2534673360032f2e2e252334" class="contact-card">
+            <a href="mailto:rmthomasiii3@gmail.com?subject=Let's Connect" class="contact-card">
                 <div class="contact-icon">📧</div>
                 <h3 class="contact-title">Email</h3>
-                <p class="contact-detail"><span class="__cf_email__" data-cfemail="51233c25393e3c30223838386211363c30383d7f323e3c">[email&#160;protected]</span></p>
+                <p class="contact-detail">rmthomasiii3@gmail.com</p>
             </a>
             <a href="tel:+19137101206" class="contact-card">
                 <div class="contact-icon">📱</div>
@@ -992,10 +1089,10 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Robert M. Thomas III | Built with code & coffee ☕</p>
+        <p>&copy; 2025 Robert M. Thomas III | rmthomasiii3@gmail.com | Built with code & coffee ☕</p>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -1036,4 +1133,14 @@
                         } else {
                             target.textContent = Math.floor(current) + suffix;
                         }
-                    
+                    }, 30);
+                    observer.unobserve(target);
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(animateStats, { threshold: 0.5 });
+        stats.forEach(stat => observer.observe(stat));
+    </script>
+</body>
+</html>
